@@ -1,0 +1,96 @@
+{
+ "Week": "2024-11-20",
+ "LastWeek": "",
+ "X": 0.83530521261583,
+ "Programs": [
+  {
+   "Program": "cmd/asm",
+   "Version": "go1.23.2",
+   "GoVersion": "go1.23.2",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "asm/flag:D": 159,
+    "asm/flag:I": 159,
+    "asm/flag:gensymabis": 59,
+    "asm/flag:o": 159,
+    "asm/flag:p": 159,
+    "asm/flag:trimpath": 159,
+    "asm/invocations": 159
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.23.2",
+   "GoVersion": "go1.23.2",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/flag:asmhdr": 59,
+    "compile/flag:buildid": 371,
+    "compile/flag:complete": 299,
+    "compile/flag:embedcfg": 2,
+    "compile/flag:goversion": 371,
+    "compile/flag:importcfg": 371,
+    "compile/flag:lang": 371,
+    "compile/flag:nolocalimports": 371,
+    "compile/flag:o": 371,
+    "compile/flag:p": 371,
+    "compile/flag:pack": 371,
+    "compile/flag:std": 301,
+    "compile/flag:symabis": 59,
+    "compile/flag:trimpath": 371,
+    "compile/invocations": 377
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.23.2",
+   "GoVersion": "go1.23.2",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/build/flag:ldflags": 6,
+    "go/build/flag:o": 6,
+    "go/buildcache/hit": 728,
+    "go/buildcache/miss": 377,
+    "go/buildcache/stdlib-recompiled": 2,
+    "go/goroot:other": 150,
+    "go/invocations": 150,
+    "go/mode:module": 150,
+    "go/platform/host/linux/major-version:6": 150,
+    "go/platform/host/linux/version:6-11": 150,
+    "go/platform/target/goamd64:v1": 150,
+    "go/platform/target/goarch:amd64": 150,
+    "go/platform/target/goos:linux": 149,
+    "go/platform/target/goos:windows": 1,
+    "go/subcommand:build": 6,
+    "go/subcommand:list": 126,
+    "go/subcommand:version": 18
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/link",
+   "Version": "go1.23.2",
+   "GoVersion": "go1.23.2",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "link/flag:X": 6,
+    "link/flag:buildid": 6,
+    "link/flag:buildmode": 6,
+    "link/flag:extld": 6,
+    "link/flag:importcfg": 6,
+    "link/flag:o": 6,
+    "link/flag:s": 6,
+    "link/flag:w": 6,
+    "link/invocations": 12
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

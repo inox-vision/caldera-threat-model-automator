@@ -1,0 +1,76 @@
+id: f4f40615-a51a-4d80-8120-25f33e6669cc
+name: 10-worm
+facts:
+- trait: remote.host.ip
+  value: 192.168.0.105
+  score: 1
+- trait: remote.host.ip
+  value: 192.168.0.101
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.7
+  score: 2
+- trait: remote.host.ip
+  value: 224.0.0.22
+  score: 2
+- trait: remote.host.ip
+  value: 224.0.0.251
+  score: 2
+- trait: remote.host.ip
+  value: 224.0.0.252
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.1.187
+  score: 1
+- trait: remote.host.ip
+  value: 239.255.255.250
+  score: 1
+- trait: remote.host.fqdn
+  value: mdns.mcast.net
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.251
+  score: 2
+- trait: remote.host.fqdn
+  value: igmp.mcast.net
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.22
+  score: 2
+- trait: remote.host.fqdn
+  value: st-routers.mcast.net
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.7
+  score: 2
+relationships:
+- source:
+    trait: remote.host.fqdn
+    value: mdns.mcast.net
+    score: 1
+  edge: has_ip
+  target:
+    trait: remote.host.ip
+    value: 224.0.0.251
+    score: 1
+  score: 1
+- source:
+    trait: remote.host.fqdn
+    value: igmp.mcast.net
+    score: 1
+  edge: has_ip
+  target:
+    trait: remote.host.ip
+    value: 224.0.0.22
+    score: 1
+  score: 1
+- source:
+    trait: remote.host.fqdn
+    value: st-routers.mcast.net
+    score: 1
+  edge: has_ip
+  target:
+    trait: remote.host.ip
+    value: 224.0.0.7
+    score: 1
+  score: 1

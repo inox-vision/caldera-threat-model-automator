@@ -1,0 +1,15 @@
+- description: 'Disables history collection in shells
+
+    '
+  id: a3e530b92fe6e08b2ec2e817bf3833af
+  name: Disable history collection (freebsd)
+  platforms:
+    linux:
+      sh:
+        cleanup: ''
+        command: export HISTSIZE=0; whoami
+        payloads: []
+  tactic: defense-evasion
+  technique:
+    attack_id: T1562.003
+    name: 'Impair Defenses: Impair Command History Logging'

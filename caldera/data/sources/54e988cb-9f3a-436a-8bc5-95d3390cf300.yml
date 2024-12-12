@@ -1,0 +1,352 @@
+id: 54e988cb-9f3a-436a-8bc5-95d3390cf300
+name: ransack
+facts:
+- trait: host.file.path
+  value: /var/lib/snapd/snap/joplin-desktop/73/opt/joplin-desktop/resources/app-update.yml
+  score: 1
+- trait: file.sensitive.extension
+  value: yml
+  score: 31
+- trait: host.file.path
+  value: /var/lib/snapd/snap/joplin-desktop/70/opt/joplin-desktop/resources/app-update.yml
+  score: 1
+- trait: host.file.path
+  value: /nix/store/h55fal8dp8b0cs9i7hhjyy103lk7gsk9-joplin-desktop-2.11.11-extracted/resources/app-update.yml
+  score: 1
+- trait: host.file.path
+  value: /nix/store/brflklzb1snxrfiyq6hx110gkrhjp1gx-perl-5.38.0/lib/perl5/5.38.0/CPAN/Kwalify/distroprefs.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/cloud/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-win-pack/config/tmpl-log-to-share.yml
+  score: 1
+- trait: host.file.path
+  value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/ok.wav
+  score: 1
+- trait: file.sensitive.extension
+  value: wav
+  score: 31
+- trait: host.file.path
+  value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/kongas.wav
+  score: 1
+- trait: host.file.path
+  value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/strom.wav
+  score: 1
+- trait: host.file.path
+  value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/sparcle.wav
+  score: 1
+- trait: host.file.path
+  value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/curve.wav
+  score: 1
+- trait: host.file.path
+  value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-down.png
+  score: 1
+- trait: file.sensitive.extension
+  value: png
+  score: 41
+- trait: host.file.path
+  value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-down@2x.png
+  score: 1
+- trait: host.file.path
+  value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-left.png
+  score: 1
+- trait: host.file.path
+  value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-left@2x.png
+  score: 1
+- trait: host.file.path
+  value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-right.png
+  score: 1
+- trait: host.user.name
+  value: adrian
+  score: 1
+- trait: domain.user.name
+  value: adrian
+  score: 1
+- trait: host.user.name
+  value: root
+  score: 1
+- trait: host.user.name
+  value: bin
+  score: 1
+- trait: host.user.name
+  value: daemon
+  score: 1
+- trait: host.user.name
+  value: mail
+  score: 1
+- trait: host.user.name
+  value: ftp
+  score: 1
+- trait: host.user.name
+  value: http
+  score: 1
+- trait: host.user.name
+  value: nobody
+  score: 1
+- trait: host.user.name
+  value: dbus
+  score: 1
+- trait: host.user.name
+  value: systemd-coredump
+  score: 1
+- trait: host.user.name
+  value: systemd-network
+  score: 1
+- trait: host.user.name
+  value: systemd-oom
+  score: 1
+- trait: host.user.name
+  value: systemd-journal-remote
+  score: 1
+- trait: host.user.name
+  value: systemd-resolve
+  score: 1
+- trait: host.user.name
+  value: systemd-timesync
+  score: 1
+- trait: host.user.name
+  value: tss
+  score: 1
+- trait: host.user.name
+  value: uuidd
+  score: 1
+- trait: host.user.name
+  value: avahi
+  score: 1
+- trait: host.user.name
+  value: polkitd
+  score: 1
+- trait: host.user.name
+  value: adrian
+  score: 1
+- trait: host.user.name
+  value: nvidia-persistenced
+  score: 1
+- trait: host.user.name
+  value: lightdm
+  score: 1
+- trait: host.user.name
+  value: colord
+  score: 1
+- trait: host.user.name
+  value: usbmux
+  score: 1
+- trait: host.user.name
+  value: git
+  score: 1
+- trait: host.user.name
+  value: rtkit
+  score: 1
+- trait: host.user.name
+  value: cups
+  score: 1
+- trait: host.user.name
+  value: rpc
+  score: 1
+- trait: host.user.name
+  value: rpcuser
+  score: 1
+- trait: host.user.name
+  value: systemd-journal-upload
+  score: 1
+- trait: host.user.name
+  value: nixbld01
+  score: 1
+- trait: host.user.name
+  value: nixbld02
+  score: 1
+- trait: host.user.name
+  value: nixbld03
+  score: 1
+- trait: host.user.name
+  value: nixbld04
+  score: 1
+- trait: host.user.name
+  value: nixbld05
+  score: 1
+- trait: host.user.name
+  value: nixbld06
+  score: 1
+- trait: host.user.name
+  value: nixbld07
+  score: 1
+- trait: host.user.name
+  value: nixbld08
+  score: 1
+- trait: host.user.name
+  value: nixbld09
+  score: 1
+- trait: host.user.name
+  value: nixbld10
+  score: 1
+- trait: host.user.name
+  value: openvpn
+  score: 1
+- trait: host.user.name
+  value: snort
+  score: 1
+- trait: host.user.name
+  value: wazuh
+  score: 1
+- trait: host.user.name
+  value: clamav
+  score: 1
+- trait: host.user.name
+  value: ansible
+  score: 1
+- trait: host.user.name
+  value: alpm
+  score: 1
+- trait: host.file.path
+  value: /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf
+  score: 1
+relationships:
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/joplin-desktop/73/opt/joplin-desktop/resources/app-update.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/joplin-desktop/70/opt/joplin-desktop/resources/app-update.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/h55fal8dp8b0cs9i7hhjyy103lk7gsk9-joplin-desktop-2.11.11-extracted/resources/app-update.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/brflklzb1snxrfiyq6hx110gkrhjp1gx-perl-5.38.0/lib/perl5/5.38.0/CPAN/Kwalify/distroprefs.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/cloud/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-win-pack/config/tmpl-log-to-share.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/ok.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/kongas.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/strom.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/sparcle.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /nix/store/6bjgc9kyamqbwwp7j2sq3mllgvy0mhll-libreoffice-7.4.7.2/lib/libreoffice/share/gallery/sounds/curve.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-down.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-down@2x.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-left.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-left@2x.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /var/lib/snapd/snap/qt515-core20/32/opt/qt515/qml/QtQuick/Controls/Styles/Base/images/arrow-right.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1

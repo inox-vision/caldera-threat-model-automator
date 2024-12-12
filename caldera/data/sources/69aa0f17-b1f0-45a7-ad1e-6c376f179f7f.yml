@@ -1,0 +1,7 @@
+id: 69aa0f17-b1f0-45a7-ad1e-6c376f179f7f
+name: alice (11/26/2024, 7:55:21 PM)
+facts:
+- trait: network.domain.name
+  value: WORKGROUP
+  score: 1
+relationships: []

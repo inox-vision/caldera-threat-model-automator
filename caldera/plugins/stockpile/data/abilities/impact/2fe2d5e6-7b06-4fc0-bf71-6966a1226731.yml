@@ -1,0 +1,62 @@
+- tactic: impact
+  technique_name: Endpoint Denial of Service
+  technique_id: T1499
+  name: Disrupt WIFI
+  description: Turn a computers WIFI off
+  executors:
+  - name: sh
+    platform: darwin
+    command: ./wifi.sh off
+    code: null
+    language: null
+    build_target: null
+    payloads:
+    - wifi.sh
+    uploads: []
+    timeout: 60
+    parsers: []
+    cleanup:
+    - ./wifi.sh on
+    variations: []
+    additional_info: {}
+  - name: sh
+    platform: linux
+    command: ./wifi.sh off
+    code: null
+    language: null
+    build_target: null
+    payloads:
+    - wifi.sh
+    uploads: []
+    timeout: 60
+    parsers: []
+    cleanup:
+    - ./wifi.sh on
+    variations: []
+    additional_info: {}
+  - name: psh
+    platform: windows
+    command: .\wifi.ps1 -Off
+    code: null
+    language: null
+    build_target: null
+    payloads:
+    - wifi.ps1
+    uploads: []
+    timeout: 60
+    parsers: []
+    cleanup:
+    - .\wifi.ps1 -On
+    variations: []
+    additional_info: {}
+  requirements: []
+  privilege: ''
+  repeatable: false
+  buckets:
+  - impact
+  additional_info: {}
+  access: {}
+  singleton: false
+  plugin: stockpile
+  delete_payload: true
+  id: 2fe2d5e6-7b06-4fc0-bf71-6966a1226731

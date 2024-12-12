@@ -1,0 +1,21 @@
+- description: 'Check internet connection using ping on Linux, MACOS. The default
+    target of the ping is 8.8.8.8 (Google Public DNS).
+
+    '
+  id: b2069aefb625023462299da682c0aea5
+  name: Check internet connection using ping freebsd, linux or macos
+  platforms:
+    darwin:
+      sh:
+        cleanup: ''
+        command: ping -n 4 8.8.8.8
+        payloads: []
+    linux:
+      sh:
+        cleanup: ''
+        command: ping -n 4 8.8.8.8
+        payloads: []
+  tactic: discovery
+  technique:
+    attack_id: T1016.001
+    name: 'System Network Configuration Discovery: Internet Connection Discovery'

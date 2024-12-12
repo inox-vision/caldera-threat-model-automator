@@ -1,0 +1,7 @@
+id: 5eca3e51-9142-4be2-b4b3-7e4ecdc92900
+name: alice
+facts:
+- trait: network.domain.name
+  value: WORKGROUP
+  score: 1
+relationships: []

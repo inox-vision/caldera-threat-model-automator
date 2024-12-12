@@ -1,0 +1,15 @@
+- description: 'Use [Phant0m](https://github.com/hlldz/Phant0m) to disable Eventlog
+
+    '
+  id: 7dbecba7def28a8560100e289f69c30e
+  name: Makes Eventlog blind with Phant0m
+  platforms:
+    windows:
+      cmd:
+        cleanup: echo "Sorry you have to reboot"
+        command: '"PathToAtomicsFolder\T1562.002\bin\Phant0m.exe"'
+        payloads: []
+  tactic: defense-evasion
+  technique:
+    attack_id: T1562.002
+    name: 'Impair Defenses: Disable Windows Event Logging'

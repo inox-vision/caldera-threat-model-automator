@@ -1,0 +1,146 @@
+id: 42667e89-bee7-46f0-82a5-8cb6446bd736
+name: thief
+facts:
+- trait: host.dir.staged
+  value: /home/adrian/staged
+  score: 2
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_A/filmic-blender-master/_config.yml
+  score: 1
+- trait: file.sensitive.extension
+  value: yml
+  score: 16
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_B/filmic-blender-master/_config.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/PROGRAMOWANIE/Ansible/update-playbook.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor-util.yml
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/blob_w.png
+  score: 1
+- trait: file.sensitive.extension
+  value: png
+  score: 26
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_c.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_e.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_n.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_ne.png
+  score: 1
+- trait: host.dir.compress
+  value: /home/adrian/staged.tar.gz
+  score: 1
+relationships:
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_A/filmic-blender-master/_config.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_B/filmic-blender-master/_config.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/PROGRAMOWANIE/Ansible/update-playbook.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor-util.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/blob_w.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_c.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_e.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_n.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_ne.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1

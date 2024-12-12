@@ -1,0 +1,23 @@
+- description: 'When a users logs in to a computer via RDP,Windows will search for
+    the key in HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd registry
+
+    By default, rdpclip is the value stored. An attacker with administrator privileges
+    can alter the value stored to allow for the custom application to execute during
+    RDP login session.The test will allow running cal rather rdpclip when a user logs
+    in via RDP
+
+    '
+  id: ab66a90e958867c7a0c9dc1c42a6705f
+  name: Allowing custom application to execute during new RDP logon session
+  platforms:
+    windows:
+      cmd:
+        cleanup: reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd"
+          /v StartupPrograms /t REG_SZ /d "rdpclip"
+        command: reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd"
+          /v StartupPrograms /t REG_SZ /d "calc"
+        payloads: []
+  tactic: multiple
+  technique:
+    attack_id: T1547.001
+    name: 'Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder'

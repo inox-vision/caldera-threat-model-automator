@@ -1,0 +1,20 @@
+- description: 'Utilize LaunchDaemon in /Users directory  to touch temporary file
+    in /tmp
+
+    '
+  id: 0c2ca5988323bf654201dcbae02ee9bd
+  name: Launch Daemon - Users Directory
+  platforms:
+    darwin:
+      sh:
+        cleanup: sudo launchctl unload ~/Library/LaunchDaemons/com.atomicredteam.T1543.004.plist;
+          sudo rm ~/Library/LaunchDaemons/com.atomicredteam.T1543.004.plist; sudo
+          rm /tmp/T1543_004_atomicredteam.txt
+        command: sudo cp f5fe80_atomicredteam_T1543_004.plist ~/Library/LaunchDaemons/com.atomicredteam.T1543.004.plist;
+          sudo launchctl load -w ~/Library/LaunchDaemons/com.atomicredteam.T1543.004.plist
+        payloads:
+        - f5fe80_atomicredteam_T1543_004.plist
+  tactic: multiple
+  technique:
+    attack_id: T1543.004
+    name: 'Create or Modify System Process: Launch Daemon'

@@ -1,0 +1,54 @@
+id: 5a8f9238-233a-4886-862b-3db59c629857
+name: worm (10/8/2024, 9:18:00 PM)
+facts:
+- trait: remote.host.ip
+  value: 192.168.0.105
+  score: 1
+- trait: remote.host.ip
+  value: 192.168.0.101
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.22
+  score: 2
+- trait: remote.host.ip
+  value: 224.0.0.251
+  score: 2
+- trait: remote.host.ip
+  value: 224.0.0.252
+  score: 1
+- trait: remote.host.ip
+  value: 239.255.255.250
+  score: 1
+- trait: remote.host.fqdn
+  value: mdns.mcast.net
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.251
+  score: 2
+- trait: remote.host.fqdn
+  value: igmp.mcast.net
+  score: 1
+- trait: remote.host.ip
+  value: 224.0.0.22
+  score: 2
+relationships:
+- source:
+    trait: remote.host.fqdn
+    value: mdns.mcast.net
+    score: 1
+  edge: has_ip
+  target:
+    trait: remote.host.ip
+    value: 224.0.0.251
+    score: 1
+  score: 1
+- source:
+    trait: remote.host.fqdn
+    value: igmp.mcast.net
+    score: 1
+  edge: has_ip
+  target:
+    trait: remote.host.ip
+    value: 224.0.0.22
+    score: 1
+  score: 1

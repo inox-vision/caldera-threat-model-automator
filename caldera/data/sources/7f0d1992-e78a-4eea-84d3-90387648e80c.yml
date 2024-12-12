@@ -1,0 +1,169 @@
+id: 7f0d1992-e78a-4eea-84d3-90387648e80c
+name: thief
+facts:
+- trait: host.dir.staged
+  value: /home/adrian/staged
+  score: 2
+- trait: host.dir.staged
+  value: C:\Users\windows\staged
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+    - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distortion
+    Power Down.wav
+  score: 1
+- trait: file.sensitive.extension
+  value: wav
+  score: 16
+- trait: host.file.path
+  value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+    - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distortion
+    Pulse.wav
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+    - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distortion
+    Ascend.wav
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+    - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distoriton
+    1.wav
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+    - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Glitch
+    Hiss.wav
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/blob_w.png
+  score: 1
+- trait: file.sensitive.extension
+  value: png
+  score: 26
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_c.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_e.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_n.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_ne.png
+  score: 1
+- trait: host.dir.compress
+  value: /home/adrian/staged.tar.gz
+  score: 1
+relationships:
+- source:
+    trait: host.file.path
+    value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+      - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distortion
+      Power Down.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+      - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distortion
+      Pulse.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+      - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distortion
+      Ascend.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+      - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Distoriton
+      1.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/media/SERWER/PRACA/STOCKI - FOOTAGE/RocketStock - Corruption
+      - 120 Distortion Elements 4K/RS3001-Corruption-SFX/Distortion Sound Effects/Glitch
+      Hiss.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/blob_w.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_c.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_e.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_n.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_ne.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1

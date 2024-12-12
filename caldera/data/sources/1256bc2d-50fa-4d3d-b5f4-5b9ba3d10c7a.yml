@@ -1,0 +1,138 @@
+id: 1256bc2d-50fa-4d3d-b5f4-5b9ba3d10c7a
+name: super spy
+facts:
+- trait: host.file.path
+  value: //192.168.5.2:8888";
+  score: 1
+- trait: host.file.path
+  value: C:\Users\Public\caldera.exe
+  score: 1
+- trait: host.ip.address
+  value: 192.168.5.2
+  score: 1
+- trait: host.dir.staged
+  value: C:\WINDOWS\system32\staged
+  score: 2
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\0bad265d965c5cb720400b60b2f0101e.png
+  score: 1
+- trait: file.sensitive.extension
+  value: png
+  score: 31
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\0ddad37550801ce12e4b94ce9b129b36.png
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\12a4da58c3ca46800f542859dce3aa11.png
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\97900161561d4ff819b25ab4e02ec3f9.png
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\97a16a33a3a60e745dd6da20dbd0efc1.png
+  score: 1
+- trait: host.dir.compress
+  value: C:\WINDOWS\system32\staged.zip
+  score: 1
+- trait: host.file.path
+  value: //192.168.5.2:8888/file/upload',
+  score: 1
+- trait: host.file.path
+  value: /537.36
+  score: 1
+- trait: host.file.path
+  value: /60.0.3112.113
+  score: 1
+- trait: host.ip.address
+  value: 192.168.5.2
+  score: 1
+- trait: host.installed.av
+  value: displayName=Windows Defender
+  score: 1
+- trait: host.installed.av
+  value: instanceGuid={D68DDC3A-831F-4fae-9E44-DA132C1ACF46}
+  score: 1
+- trait: host.installed.av
+  value: pathToSignedProductExe=windowsdefender://
+  score: 1
+- trait: host.installed.av
+  value: pathToSignedReportingExe=%ProgramFiles%\Windows Defender\MsMpeng.exe
+  score: 1
+- trait: host.installed.av
+  value: productState=397568
+  score: 1
+- trait: host.installed.av
+  value: timestamp=Tue, 08 Oct 2024 17:35:49 GMT
+  score: 1
+- trait: wifi.network.ssid
+  value: "inox\r"
+  score: 1
+- trait: wifi.network.ssid
+  value: "inox-guest\r"
+  score: 1
+- trait: wifi.network.ssid
+  value: "Bv\r"
+  score: 1
+- trait: wifi.network.ssid
+  value: "Galaxy A33 5G74D3\r"
+  score: 1
+- trait: wifi.network.ssid
+  value: "MariuszNiwa\r"
+  score: 1
+- trait: wifi.network.ssid
+  value: "ALPOL\r"
+  score: 1
+- trait: wifi.network.ssid
+  value: "Niwa2\r"
+  score: 1
+relationships:
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\0bad265d965c5cb720400b60b2f0101e.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\0ddad37550801ce12e4b94ce9b129b36.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\12a4da58c3ca46800f542859dce3aa11.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\97900161561d4ff819b25ab4e02ec3f9.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\97a16a33a3a60e745dd6da20dbd0efc1.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1

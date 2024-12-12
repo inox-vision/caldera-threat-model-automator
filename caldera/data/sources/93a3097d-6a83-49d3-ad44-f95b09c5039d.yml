@@ -1,0 +1,285 @@
+id: 93a3097d-6a83-49d3-ad44-f95b09c5039d
+name: 8-thief
+facts:
+- trait: host.dir.staged
+  value: C:\Users\akupc\staged
+  score: 1
+- trait: host.dir.staged
+  value: /home/adrian/staged
+  score: 2
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_A/filmic-blender-master/_config.yml
+  score: 1
+- trait: file.sensitive.extension
+  value: yml
+  score: 26
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_B/filmic-blender-master/_config.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/PROGRAMOWANIE/Ansible/update-playbook.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor-util.yml
+  score: 1
+- trait: host.file.path
+  value: /home/adrian/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.3.0/testdata/wav.wav
+  score: 1
+- trait: file.sensitive.extension
+  value: wav
+  score: 26
+- trait: host.file.path
+  value: /usr/share/doc/qt/examples/demos/maroon/content/audio/bomb-action.wav
+  score: 1
+- trait: host.file.path
+  value: /usr/share/doc/qt/examples/demos/maroon/content/audio/catch-action.wav
+  score: 1
+- trait: host.file.path
+  value: /usr/share/doc/qt/examples/demos/maroon/content/audio/catch.wav
+  score: 1
+- trait: host.file.path
+  value: /usr/share/doc/qt/examples/demos/maroon/content/audio/currency.wav
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\0bad265d965c5cb720400b60b2f0101e.png
+  score: 1
+- trait: file.sensitive.extension
+  value: png
+  score: 51
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\0ddad37550801ce12e4b94ce9b129b36.png
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\12a4da58c3ca46800f542859dce3aa11.png
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\97900161561d4ff819b25ab4e02ec3f9.png
+  score: 1
+- trait: host.file.path
+  value: C:\Users\akupc\.thumbnails\large\97a16a33a3a60e745dd6da20dbd0efc1.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/blob_w.png
+  score: 1
+- trait: file.sensitive.extension
+  value: png
+  score: 51
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_c.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_e.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_n.png
+  score: 1
+- trait: host.file.path
+  value: /boot/grub/themes/starfield/boot_menu_ne.png
+  score: 1
+- trait: host.dir.compress
+  value: /home/adrian/staged.tar.gz
+  score: 1
+relationships:
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_A/filmic-blender-master/_config.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/PROGRAMOWANIE/Python/UNDER DEVELOPMENT/Synchroniser/synchro_B/filmic-blender-master/_config.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/PROGRAMOWANIE/Ansible/update-playbook.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/Insync/IT/CYBERSECURITY/TOOLS/THOR Lite/thor10.7lite-linux-pack/config/thor-util.yml
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: yml
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /home/adrian/go/pkg/mod/github.com/gabriel-vasile/mimetype@v1.3.0/testdata/wav.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /usr/share/doc/qt/examples/demos/maroon/content/audio/bomb-action.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /usr/share/doc/qt/examples/demos/maroon/content/audio/catch-action.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /usr/share/doc/qt/examples/demos/maroon/content/audio/catch.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /usr/share/doc/qt/examples/demos/maroon/content/audio/currency.wav
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: wav
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\0bad265d965c5cb720400b60b2f0101e.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\0ddad37550801ce12e4b94ce9b129b36.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\12a4da58c3ca46800f542859dce3aa11.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\97900161561d4ff819b25ab4e02ec3f9.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: C:\Users\akupc\.thumbnails\large\97a16a33a3a60e745dd6da20dbd0efc1.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/blob_w.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_c.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_e.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_n.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
+- source:
+    trait: host.file.path
+    value: /boot/grub/themes/starfield/boot_menu_ne.png
+    score: 1
+  edge: has_extension
+  target:
+    trait: file.sensitive.extension
+    value: png
+    score: 1
+  score: 1
