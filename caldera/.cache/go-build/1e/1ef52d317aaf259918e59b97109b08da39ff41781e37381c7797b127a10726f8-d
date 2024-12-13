@@ -1,6 +1,0 @@
-./cmd.go
-./powershell.go
-./proc.go
-./shell.go
-./shells_config_windows.go
-./shells_shared.go
